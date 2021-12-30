@@ -3,6 +3,8 @@ const { animals } = require('./data/animals.json')
 
 const PORT = process.env.PORT || 3001;
 const app = express();
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 function filterByQuery(query, animalsArray) {
     let filteredResults = animalsArray;
@@ -45,7 +47,10 @@ app.get('/api/animals/:id', (req, res) => {
     }
 })
 
-
+app.post('/api/animals', (req, res) => {
+    console.log(req.body);
+    res.json(req.body);
+});
 
 
 
