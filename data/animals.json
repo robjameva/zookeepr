@@ -126,6 +126,26 @@
         "zany"
       ],
       "id": "12"
+    },
+    {
+      "name": "Franc",
+      "species": "Dog",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "hungry",
+        "loving",
+        "goofy"
+      ],
+      "id": "13"
+    },
+    {
+      "name": "Franc2",
+      "species": "Dog",
+      "diet": "folivore",
+      "personalityTraits": [
+        "loving"
+      ],
+      "id": "14"
     }
   ]
 }
