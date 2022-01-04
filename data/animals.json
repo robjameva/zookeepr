@@ -146,6 +146,15 @@
         "loving"
       ],
       "id": "14"
+    },
+    {
+      "name": "Hutch",
+      "species": "Cat",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "anxious"
+      ],
+      "id": "15"
     }
   ]
 }
